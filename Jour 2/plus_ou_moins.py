@@ -5,7 +5,7 @@ def my_input():
         inputed = input("Veuillez entrer un nombre: ")
         if inputed.isnumeric():
             res = int(inputed) 
-    return res 
+            return res 
 
 NOMBRE_A_TROUVER = 5
 nombre_entre = my_input()
