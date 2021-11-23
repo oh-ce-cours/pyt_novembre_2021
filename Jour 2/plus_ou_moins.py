@@ -23,6 +23,7 @@ def my_input_2():
         inputed = input("Veuillez entrer un nombre: ")
         try:
             res = int(inputed) 
+            return res
         except ValueError:
             res = None 
 
