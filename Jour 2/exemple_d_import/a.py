@@ -1,8 +1,8 @@
+import b 
 
 print("je charge a")
 
 def randint(a, b):
-    import b 
     print("dans randint de a")
 
 def randrange(a, b):
