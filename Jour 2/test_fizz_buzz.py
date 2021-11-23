@@ -1,6 +1,11 @@
 from fizzbuzz import regle_fizz_buzz
 
-assert regle_fizz_buzz(3) == "fizz"
-assert regle_fizz_buzz(5) == "buzz"
-assert regle_fizz_buzz(15) == "fizzbuzz"
-assert regle_fizz_buzz(2) == 2
+def test_fizzbuzz():
+    assert regle_fizz_buzz(3) == "fizz"
+
+# def test_2():
+#     assert regle_fizz_buzz(5) == "buzz"
+
+# def test_3():
+#     assert regle_fizz_buzz(15) == "fizzbuzz"
+#     assert regle_fizz_buzz(2) == 2 

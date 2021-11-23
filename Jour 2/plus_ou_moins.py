@@ -81,4 +81,28 @@ def solution_3_nicolas():
 
     print("Bravo, c'était bien ", nombre_ordinateur)
 
+
+def solution_2():
+    def logique_metier(nombre_a_trouver, choix_utilisateur):
+        sortie = ""
+        etat = None
+        if choix_utilisateur > nombre_a_trouver:
+            sortie = "c'est moins"
+            etat = -1
+        elif choix_utilisateur < nombre_a_trouver:
+            sortie = "c'est plus"
+            etat = 1
+        else:
+            sortie = "c'est bon"
+            etat = 0
+        return sortie, etat
+
+    while True:
+        nombre_entre = my_input_2()
+        sortie, etat = logique_metier(NOMBRE_A_TROUVER, nombre_entre)
+        print(sortie)
+        if etat == 0:
+            break 
+    print("c'est fini")
+
 solution_1()

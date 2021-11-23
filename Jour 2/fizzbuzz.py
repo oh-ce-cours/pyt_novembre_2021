@@ -2,7 +2,7 @@ def est_divisible_par_3(nombre):
     return nombre % 3 == 0
 
 def est_divisible_par_5(nombre):
-    return nombre % 5 == 0
+    return nombre % 5 == 0 
 
 def regle_fizz_buzz(nombre):
     resultat = ""
