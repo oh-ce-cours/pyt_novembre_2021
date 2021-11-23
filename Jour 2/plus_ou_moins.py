@@ -1,8 +1,10 @@
 def my_input():
-    inputed = input("Veuillez entrer un nombre: ")
     res = None
-    if inputed.isnumeric():
-        res = int(inputed) 
+
+    while res is None:
+        inputed = input("Veuillez entrer un nombre: ")
+        if inputed.isnumeric():
+            res = int(inputed) 
     return res 
 
 NOMBRE_A_TROUVER = 5
