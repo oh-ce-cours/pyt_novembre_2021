@@ -12,7 +12,7 @@ def my_input():
             return res 
 
 
-def my_input():
+def my_input_2():
     """
     On demande un nombre à l'utilisateur tant que son entrée est invalide
     Version 1 : on regarde où on marche (on fait en sorte d'éviter l'exception)
