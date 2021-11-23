@@ -14,5 +14,5 @@ def regle_fizz_buzz(nombre):
         resultat = nombre
     return resultat
         
-for nombre in range(1, 101):
-    print(regle_fizz_buzz(nombre))
+# for nombre in range(1, 101):
+#     print(regle_fizz_buzz(nombre))
