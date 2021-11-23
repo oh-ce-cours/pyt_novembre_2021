@@ -47,7 +47,7 @@ print("c'est fini")
 while True:
     if nombre_entre > NOMBRE_A_TROUVER:
         print("c'est moins")
-    elif nombre < NOMBRE_A_TROUVER:
+    elif nombre_entre < NOMBRE_A_TROUVER:
         print("c'est plus")
     else:
         break 
