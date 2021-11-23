@@ -21,7 +21,7 @@ def my_input_2():
 
     while res is None:
         inputed = input("Veuillez entrer un nombre: ")
-            res = int(inputed) 
+        res = int(inputed) 
 
 
 NOMBRE_A_TROUVER = 5
