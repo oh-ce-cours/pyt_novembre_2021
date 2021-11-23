@@ -10,7 +10,8 @@ def my_input():
         if inputed.isnumeric():
             res = int(inputed) 
             return res 
-
+        else:
+            print("J'ai dit un nombre!!!!!!!!!")
 
 def my_input_2():
     """
