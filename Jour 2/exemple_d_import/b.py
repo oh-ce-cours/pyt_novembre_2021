@@ -7,5 +7,8 @@ from a import randint, randrange
 # import pandas as pd 
 # import matplotlib.pyplot as plt 
 
+import sys 
+print(sys.paht)
+
 print(le_randint_de_a.__dir__)
 random.randint()
