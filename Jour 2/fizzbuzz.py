@@ -17,7 +17,3 @@ def regle_fizz_buzz(nombre):
 # for nombre in range(1, 101):
 #     print(regle_fizz_buzz(nombre))
 
-assert regle_fizz_buzz(3) == "fizz"
-assert regle_fizz_buzz(5) == "buzz"
-assert regle_fizz_buzz(15) == "fizzbuzz"
-assert regle_fizz_buzz(2) == 2
