@@ -3,7 +3,7 @@ import a
 
 print(random.randint(1, 10))
 print(a.randint(1, 10))
-print()
+print(dir(a))
 
 res = [1, 10]
 # shuffle(res)
