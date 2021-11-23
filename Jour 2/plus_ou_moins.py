@@ -25,8 +25,7 @@ def my_input_2():
         try:
             res = int(inputed) 
             return res
-        except ValueError as e:
-            print(e, type(e))
+        except ValueError:
             print("J'ai dit un nombre!!!!!!!!!")
             res = None 
 
