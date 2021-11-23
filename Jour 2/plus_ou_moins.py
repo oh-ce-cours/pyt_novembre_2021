@@ -26,6 +26,7 @@ def my_input_2():
             res = int(inputed) 
             return res
         except ValueError:
+            print("J'ai dit un nombre!!!!!!!!!")
             res = None 
 
 NOMBRE_A_TROUVER = 5
