@@ -21,8 +21,10 @@ def my_input_2():
 
     while res is None:
         inputed = input("Veuillez entrer un nombre: ")
-        res = int(inputed) 
-
+        try:
+            res = int(inputed) 
+        except ValueError:
+            res = None 
 
 NOMBRE_A_TROUVER = 5
 nombre_entre = my_input()
