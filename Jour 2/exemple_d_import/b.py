@@ -1,5 +1,5 @@
-from random import randint
-from a import randint
+import random 
+import a
 
 print(randint(1, 10))
 
