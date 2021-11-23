@@ -8,3 +8,4 @@ from a import randint, randrange
 # import matplotlib.pyplot as plt 
 
 print(le_randint_de_a.__dir__)
+random.randint()
