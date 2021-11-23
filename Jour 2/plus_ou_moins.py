@@ -24,10 +24,12 @@ def my_input_2():
         inputed = input("Veuillez entrer un nombre: ")
         try:
             res = int(inputed) 
-            return res
         except ValueError:
             print("J'ai dit un nombre!!!!!!!!!")
             res = None 
+        else:
+            return res
+
 
 NOMBRE_A_TROUVER = 5
 nombre_entre = my_input_2()
