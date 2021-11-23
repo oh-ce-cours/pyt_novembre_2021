@@ -15,7 +15,7 @@ def my_input():
 def my_input_2():
     """
     On demande un nombre à l'utilisateur tant que son entrée est invalide
-    Version 2 : on demande pardon plutot que la permission (on fait en sorte d'éviter l'exception)
+    Version 2 : on demande pardon plutot que la permission (si l'exception se produit, on la règle)
     """
     res = None
 
