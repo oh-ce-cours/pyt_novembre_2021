@@ -1,4 +1,8 @@
 def my_input():
+    """
+    On demande un nombre à l'utilisateur tant que son entrée est invalide
+    Version 1 : on regarde où on marche
+    """
     res = None
 
     while res is None:
