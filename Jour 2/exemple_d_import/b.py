@@ -1,2 +1,2 @@
 import random 
-import a
+from a import randint
