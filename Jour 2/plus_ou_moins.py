@@ -23,8 +23,8 @@ def my_input_2():
     while res is None:
         inputed = input("Veuillez entrer un nombre: ")
         try:
-            res = int(inputed) 
-        except ValueError:
+            res = int(inpted) 
+        except:
             print("J'ai dit un nombre!!!!!!!!!")
             res = None 
         else:
