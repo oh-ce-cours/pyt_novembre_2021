@@ -1,7 +1,8 @@
 def my_input():
     inputed = input("Veuillez entrer un nombre: ")
     if inputed.isnumeric():
-        res = int(inputed) # ça peut planter
+        res = int(inputed) 
+    
     return res 
 
 NOMBRE_A_TROUVER = 5
