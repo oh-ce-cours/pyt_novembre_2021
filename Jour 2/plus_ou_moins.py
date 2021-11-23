@@ -11,6 +11,21 @@ def my_input():
             res = int(inputed) 
             return res 
 
+
+def my_input():
+    """
+    On demande un nombre à l'utilisateur tant que son entrée est invalide
+    Version 1 : on regarde où on marche (on fait en sorte d'éviter l'exception)
+    """
+    res = None
+
+    while res is None:
+        inputed = input("Veuillez entrer un nombre: ")
+        if inputed.isnumeric():
+            res = int(inputed) 
+            return res 
+
+
 NOMBRE_A_TROUVER = 5
 nombre_entre = my_input()
 print(nombre_entre)
