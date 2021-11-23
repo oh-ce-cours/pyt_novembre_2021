@@ -30,9 +30,10 @@ def my_input_2():
         else:
             return res
 
+import random
 
 
-NOMBRE_A_TROUVER = 5
+NOMBRE_A_TROUVER = random.randint(1, 100)
 nombre_entre = my_input_2()
 print(nombre_entre)
 while nombre_entre != NOMBRE_A_TROUVER:
