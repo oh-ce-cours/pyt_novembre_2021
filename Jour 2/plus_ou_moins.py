@@ -35,7 +35,7 @@ def my_input_2():
         else:
             return res
 
-def soluution_1():
+def solution_1():
     while (nombre_entre := my_input_2()) != NOMBRE_A_TROUVER:
         if nombre_entre > NOMBRE_A_TROUVER:
             print("c'est moins")
