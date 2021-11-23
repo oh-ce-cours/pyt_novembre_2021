@@ -31,16 +31,14 @@ def my_input_2():
             return res
 
 
-try:
-    NOMBRE_A_TROUVER = 5
+
+NOMBRE_A_TROUVER = 5
+nombre_entre = my_input_2()
+print(nombre_entre)
+while nombre_entre != NOMBRE_A_TROUVER:
+    if nombre_entre > NOMBRE_A_TROUVER:
+        print("c'est moins")
+    else:
+        print("c'est plus")
     nombre_entre = my_input_2()
-    print(nombre_entre)
-    while nombre_entre != NOMBRE_A_TROUVER:
-        if nombre_entre > NOMBRE_A_TROUVER:
-            print("c'est moins")
-        else:
-            print("c'est plus")
-        nombre_entre = my_input_2()
-    print("c'est fini")
-except:
-    pass
+print("c'est fini")
