@@ -80,3 +80,5 @@ def solution_3_nicolas():
             print("C'est Moins")
 
     print("Bravo, c'était bien ", nombre_ordinateur)
+
+solution_1()
