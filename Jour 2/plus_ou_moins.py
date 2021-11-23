@@ -21,9 +21,7 @@ def my_input_2():
 
     while res is None:
         inputed = input("Veuillez entrer un nombre: ")
-        if inputed.isnumeric():
             res = int(inputed) 
-            return res 
 
 
 NOMBRE_A_TROUVER = 5
