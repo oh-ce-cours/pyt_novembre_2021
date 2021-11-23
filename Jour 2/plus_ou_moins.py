@@ -44,12 +44,12 @@ while nombre_entre != NOMBRE_A_TROUVER:
     nombre_entre = my_input_2()
 print("c'est fini")
 
-while True:
-    if nombre_entre > NOMBRE_A_TROUVER:
-        print("c'est moins")
-    elif nombre_entre < NOMBRE_A_TROUVER:
-        print("c'est plus")
-    else:
-        break 
-    nombre_entre = my_input_2()
-print("c'est fini")
+# while True:
+#     if nombre_entre > NOMBRE_A_TROUVER:
+#         print("c'est moins")
+#     elif nombre_entre < NOMBRE_A_TROUVER:
+#         print("c'est plus")
+#     else:
+#         break 
+#     nombre_entre = my_input_2()
+# print("c'est fini")
