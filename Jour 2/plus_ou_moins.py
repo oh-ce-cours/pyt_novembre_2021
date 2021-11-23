@@ -15,6 +15,9 @@ def my_input():
         else:
             print("J'ai dit un nombre!!!!!!!!!")
 
+NOMBRE_A_TROUVER = random.randint(1, 100)
+
+
 def my_input_2():
     """
     On demande un nombre à l'utilisateur tant que son entrée est invalide
@@ -33,7 +36,6 @@ def my_input_2():
             return res
 
 def soluution_1():
-    NOMBRE_A_TROUVER = random.randint(1, 100)
     while (nombre_entre := my_input_2()) != NOMBRE_A_TROUVER:
         if nombre_entre > NOMBRE_A_TROUVER:
             print("c'est moins")
