@@ -1,4 +1,3 @@
-import b 
 
 print("je charge a")
 
