@@ -6,4 +6,4 @@ from a import randint, randrange
 # import pandas as pd 
 # import matplotlib.pyplot as plt 
 
-print(le_randint_de_a.__file__)
+print(le_randint_de_a.__doc__)
