@@ -1,3 +1,5 @@
+import b 
+
 print("je charge a")
 
 def randint(a, b):
