@@ -1,6 +1,6 @@
 from typing import List, Union
 
-l:List[List[bool, str, tuple]] = [
+l:List = [
     [True, "message", (1, 2, 3)],
     [False, "casse", (1, 1, 1)],
     [True, "super", (-1, 3, 5)],
