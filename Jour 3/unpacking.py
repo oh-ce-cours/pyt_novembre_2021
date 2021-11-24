@@ -1,4 +1,4 @@
-l:list = [
+l:list[bool, str, tuple] = [
     [True, "message", (1, 2, 3)],
     [False, "casse", (1, 1, 1)],
     [True, "super", (-1, 3, 5)],
