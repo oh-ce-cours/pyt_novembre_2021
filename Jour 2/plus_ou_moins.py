@@ -82,7 +82,7 @@ def solution_3_nicolas():
     print("Bravo, c'était bien ", nombre_ordinateur)
 
 
-def solution_2():
+def solution_4():
     def logique_metier(nombre_a_trouver, choix_utilisateur):
         sortie = ""
         etat = None
