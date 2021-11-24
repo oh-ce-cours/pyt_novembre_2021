@@ -7,6 +7,6 @@ l:List[Tuple[bool, str, type_coords]] = [
     (True, "super", (-1, 3, 5)),
 ]
 
-status, b, c = l[0]
+status, b, (x, y,z) = l[0]
 for status, _, (_, coord_y, _) in l:
     print(status, coord_y)
