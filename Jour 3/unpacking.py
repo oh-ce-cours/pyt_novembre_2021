@@ -1,4 +1,4 @@
-from typing import List, Any
+from typing import List, Any, Tuple
 
 l:List[Tuple[bool, str, Any]] = [
     [True, "message", (1, 2, 3)],
