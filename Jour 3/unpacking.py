@@ -7,3 +7,5 @@ l:List[List[bool, str, tuple]] = [
 ]
 
 status, _, (_, coord_y, _) = l[0]
+for status, _, (_, coord_y, _) in l:
+    print(status, coord_y)
