@@ -6,4 +6,5 @@ l:List = [
     [True, "super", (-1, 3, 5)],
 ]
 
+status:bool = False
 status, _, (_, coord_y, _) = l[0]
