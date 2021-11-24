@@ -1,6 +1,7 @@
 from typing import List, Any, Tuple
 
-l:List[Tuple[bool, str, Tuple[int, int, int]]] = [
+type_coords = Tuple[int, int, int]
+l:List[Tuple[bool, str, ]] = [
     (True, "message", (1, 2, 3)),
     (False, "casse", (1, 1, 1)),
     (True, "super", (-1, 3, 5)),
