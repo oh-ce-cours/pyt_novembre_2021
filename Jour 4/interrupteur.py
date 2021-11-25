@@ -37,5 +37,5 @@ else:
     print("veuillez indiquer eteindre ou allumer")
 # print(question_lieu,type( question_lieu))
 # print(question_etat, type(question_etat))
-interrupteursalon = Interrupteur(question_lieu, question_etat)
+interrupteursalon = Interrupteur(question_lieu, etat)
 interrupteursalon.tourner()
