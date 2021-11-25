@@ -17,7 +17,6 @@ def test_creation_personne(matthieu, paul):
     assert not paul.est_majeur()
 
 
-def test_presentation():
-    p1 = Personne(naissance=1990, nom="Matthieu")
+def test_presentation(matthieu):
     assert "Matthieu" in str(p1)
     assert "1990" in str(p1)
