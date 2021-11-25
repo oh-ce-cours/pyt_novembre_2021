@@ -1,6 +1,8 @@
+import pytest
 from interrupteur import Interrupteur
 
 
+@pytest.fixture
 def my_interrupteur():
     return Interrupteur("chambre", 0)
 
