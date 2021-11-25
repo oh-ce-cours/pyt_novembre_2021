@@ -27,10 +27,12 @@ question_etat = input(
     'voulez vous allumer ou eteindre la lumiere, repondez par "allumer" ou "eteindre" à la question >>> '
 )
 question_etat = question_etat.lower().strip()
+
+etat = 0
 if question_etat == "allumer":
-    question_etat = 1
+    etat = 1
 elif question_etat == "eteindre":
-    question_etat = 0
+    etat = 0
 else:
     print("veuillez indiquer eteindre ou allumer")
 # print(question_lieu,type( question_lieu))
