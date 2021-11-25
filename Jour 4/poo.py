@@ -13,6 +13,10 @@ class Personne:
     def __str__(self):
         return f"Je suis {self.nom} et je suis né en {self.naissance}"
 
+    @classmethod
+    def creer(cls):
+        print(cls)
+
 
 if __name__ == "__main__":
     Personne.creer()
