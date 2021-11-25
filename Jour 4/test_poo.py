@@ -11,3 +11,5 @@ def test_creation_personne():
 
 def test_presentation():
     p1 = Personne(naissance=1990, nom="Matthieu")
+    print(p1)  # Je suis Matthieu né en 1990
+    assert "Matthieu" in str(p1)
