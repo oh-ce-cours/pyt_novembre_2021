@@ -1,16 +1,16 @@
 class Interrupteur:
-    def __init__(self, questionlieu, questionetat):
-        self.questionlieu = questionlieu
-        self.questionetat = questionetat
+    def __init__(self, question_lieu, question_etat):
+        self.question_lieu = question_lieu
+        self.question_etat = question_etat
 
     def tourner(self):
         # if self.etat.isnumeric():
-        if self.questionetat == 1:
-            print(f"la lumiere > {self.questionlieu} < est allumé(e)")
-        elif self.questionetat == 0:
-            print(f"la lumiere > {self.questionlieu} < est éteinte")
+        if self.question_etat == 1:
+            print(f"la lumiere > {self.question_lieu} < est allumé(e)")
+        elif self.question_etat == 0:
+            print(f"la lumiere > {self.question_lieu} < est éteinte")
         else:
-            self.questionetat != 0 or self.questionetat != 1
+            self.question_etat != 0 or self.question_etat != 1
             print("Veuillez actionner le bouton, l'état doit être en 0 et 1")
 
 
@@ -21,23 +21,23 @@ interrupteursalon = Interrupteur("salon", 0)
 interrupteursalon.tourner()
 interrupteursalon = Interrupteur("salon", 3)
 interrupteursalon.tourner()
-questionlieu = input(
+question_lieu = input(
     "indiquer le nom de l'interrupteur que vous souhaitez allumer >>> "
 )
-questionetat = input(
+question_etat = input(
     'voulez vous allumer ou eteindre la lumiere, repondez par "allumer" ou "eteindre" à la question >>> '
 )
-questionetat = questionetat.lower()
-questionetat = questionetat.strip()
-if questionetat == "allumer":
-    questionetat = 1
-    questionetat = int(questionetat)
-elif questionetat == "eteindre":
-    questionetat = 0
-    questionetat = int(questionetat)
+question_etat = question_etat.lower()
+question_etat = question_etat.strip()
+if question_etat == "allumer":
+    question_etat = 1
+    question_etat = int(question_etat)
+elif question_etat == "eteindre":
+    question_etat = 0
+    question_etat = int(question_etat)
 else:
     print("veuillez indiquer eteindre ou allumer")
-# print(questionlieu,type( questionlieu))
-# print(questionetat, type(questionetat))
-interrupteursalon = Interrupteur(questionlieu, questionetat)
+# print(question_lieu,type( question_lieu))
+# print(question_etat, type(question_etat))
+interrupteursalon = Interrupteur(question_lieu, question_etat)
 interrupteursalon.tourner()
