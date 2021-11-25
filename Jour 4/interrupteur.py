@@ -3,7 +3,7 @@ class Interrupteur:
         self.question_lieu = question_lieu
         self.etat = etat
 
-    def tourner(self):
+    def commuter(self):
         if self.etat == 1:
             print(f"la lumiere > {self.question_lieu} < est allumé(e)")
         elif self.etat == 0:
@@ -15,11 +15,11 @@ class Interrupteur:
 
 # test unitaire
 interrupteursalon = Interrupteur("salon", 1)
-interrupteursalon.tourner()
+interrupteursalon.commuter()
 interrupteursalon = Interrupteur("salon", 0)
-interrupteursalon.tourner()
+interrupteursalon.commuter()
 interrupteursalon = Interrupteur("salon", 3)
-interrupteursalon.tourner()
+interrupteursalon.commuter()
 question_lieu = input(
     "indiquer le nom de l'interrupteur que vous souhaitez allumer >>> "
 )
@@ -38,4 +38,4 @@ else:
 # print(question_lieu,type( question_lieu))
 # print(question_etat, type(question_etat))
 interrupteursalon = Interrupteur(question_lieu, etat)
-interrupteursalon.tourner()
+interrupteursalon.commuter()
