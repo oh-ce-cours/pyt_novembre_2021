@@ -8,8 +8,7 @@ class Personne:
         self.nom = nom
 
     def est_majeur(self):
-        age_majorite = 18
-        return self.age > age_majorite
+        return self.age > self.AGE_MAJORITE
 
     def __str__(self):
         return f"Je suis {self.nom} et je suis né en {self.naissance}"
