@@ -46,4 +46,5 @@ def main():
     interrupteursalon.afficher_etat()
 
 
-main()
+print(__main__)
+# main()
