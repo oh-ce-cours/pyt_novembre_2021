@@ -13,11 +13,11 @@ def interrupteur_salon_allume():
 
 
 def test_creation_interrupteur(interrupteur_salon_eteind):
-    assert my_interrupteur.etat == 0
-    my_interrupteur.actionner_bouton(1)
-    assert my_interrupteur.etat == 1
+    assert interrupteur_salon_eteind.etat == 0
+    interrupteur_salon_eteind.actionner_bouton(1)
+    assert interrupteur_salon_eteind.etat == 1
 
 
 def test_creation_interrupteur_2(interrupteur_salon_allume):
-    my_interrupteur.actionner_bouton(10)
-    assert my_interrupteur.etat == 10
+    interrupteur_salon_allume.actionner_bouton(10)
+    assert interrupteur_salon_allume.etat == 10
