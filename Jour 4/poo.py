@@ -25,4 +25,6 @@ if __name__ == "__main__":
     print(Personne.creer())
     print(Personne.NB_PERSONNES_CREES)
     print(Personne.creer())
+    print(Personne.NB_PERSONNES_CREES)
     print(Personne.creer())
+    print(Personne.NB_PERSONNES_CREES)
