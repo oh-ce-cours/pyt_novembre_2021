@@ -1,1 +1,1 @@
-from interrupteur import Interrupteur
+import interrupteur
