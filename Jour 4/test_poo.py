@@ -7,3 +7,7 @@ def test_creation_personne():
 
     assert p1.est_majeur()
     assert not p2.est_majeur()
+
+
+def test_presentation():
+    p1 = Personne(naissance=1990, nom="Matthieu")
