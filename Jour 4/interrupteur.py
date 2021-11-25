@@ -1,7 +1,8 @@
 class Interrupteur:
     def __init__(self, questionlieu, questionetat):
         self.questionlieu = questionlieu
-        self.questionetat = questionetat 
+        self.questionetat = questionetat
+
     def tourner(self):
         # if self.etat.isnumeric():
         if self.questionetat == 1:
@@ -11,6 +12,8 @@ class Interrupteur:
         else:
             self.questionetat != 0 or self.questionetat != 1
             print("Veuillez actionner le bouton, l'état doit être en 0 et 1")
+
+
 # test unitaire
 interrupteursalon = Interrupteur("salon", 1)
 interrupteursalon.tourner()
