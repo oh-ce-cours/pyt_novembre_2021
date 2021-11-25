@@ -1,10 +1,13 @@
 import pytest
 from interrupteur import Interrupteur
 
-"""Dans pytest, il est possible d'utiliser des fixtures pour ne pas avoir à répéter la création d'une ressource (dans notre cas, un interrupteur).
+"""Dans pytest, il est possible d'utiliser des fixtures pour ne pas avoir à 
+répéter la création d'une ressource (dans notre cas, un interrupteur).
 
-Returns:
-    [type]: [description]
+Il ne faut SURTOUT PAS avoir une variable interrupteur globale partagée 
+entre les tests, car cela n'isole plus les tests les uns des autres. 
+Or vos tests doivent être indépendants entre eux. 
+
 """
 
 
