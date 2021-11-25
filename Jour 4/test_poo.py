@@ -18,5 +18,5 @@ def test_creation_personne(matthieu, paul):
 
 
 def test_presentation(matthieu):
-    assert "Matthieu" in str(p1)
-    assert "1990" in str(p1)
+    assert "Matthieu" in str(matthieu)
+    assert "1990" in str(matthieu)
