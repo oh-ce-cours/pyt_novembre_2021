@@ -1,6 +1,12 @@
 import pytest
 from interrupteur import Interrupteur
 
+"""Dans pytest, il est possible d'utiliser des fixtures pour ne pas avoir à répéter la création d'une ressource (dans notre cas, un interrupteur).
+
+Returns:
+    [type]: [description]
+"""
+
 
 @pytest.fixture
 def interrupteur_salon_eteind():
