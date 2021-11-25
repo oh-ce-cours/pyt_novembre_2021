@@ -44,3 +44,6 @@ def main():
     interrupteursalon.afficher_etat()
     interrupteursalon.etat = 13432
     interrupteursalon.afficher_etat()
+
+
+main()
