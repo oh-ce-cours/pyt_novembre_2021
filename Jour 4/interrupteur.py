@@ -13,7 +13,7 @@ class Interrupteur:
             print("Veuillez actionner le bouton, l'état doit être en 0 et 1")
 
 
-# test unitaire
+# Utilisation
 interrupteursalon = Interrupteur("salon", 1)
 interrupteursalon.commuter()
 interrupteursalon = Interrupteur("salon", 0)
