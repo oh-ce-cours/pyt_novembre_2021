@@ -3,6 +3,7 @@ class Personne:
     NB_PERSONNES_CREES = 0
 
     def __init__(self, nom, naissance):
+        self.NB_PERSONNES_CREES += 1
         annee_en_cours = 2021
         self.naissance = naissance
         self.age = annee_en_cours - naissance
