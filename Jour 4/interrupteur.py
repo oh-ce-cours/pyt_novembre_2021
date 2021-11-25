@@ -1,7 +1,7 @@
 class Interrupteur:
     def __init__(self, questionlieu, questionetat):
         self.questionlieu = questionlieu
-        self.questionetat = questionetat
+        self.questionetat = questionetat 
     def tourner(self):
         # if self.etat.isnumeric():
         if self.questionetat == 1:
