@@ -12,8 +12,8 @@ class Interrupteur:
             self.etat != 0 or self.etat != 1
             print("Veuillez actionner le bouton, l'état doit être en 0 et 1")
 
-    # def actionner_bouton(self, etat_voulu):
-    #     self.etat = etat_voulu
+    def actionner_bouton(self, etat_voulu):
+        self.etat = etat_voulu
 
 
 def main():
