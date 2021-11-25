@@ -43,3 +43,4 @@ else:
 interrupteursalon = Interrupteur(question_lieu, etat)
 interrupteursalon.afficher_etat()
 interrupteursalon.etat = 13432
+interrupteursalon.afficher_etat()
