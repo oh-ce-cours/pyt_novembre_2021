@@ -46,5 +46,5 @@ def main():
     interrupteursalon.afficher_etat()
 
 
-print("dans interrupteur.py", __name__)
-# main()
+if __name__ == "__main__":
+    main()
