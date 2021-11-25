@@ -17,7 +17,6 @@ class Interrupteur:
 
 
 def main():
-    # Utilisation
     interrupteursalon = Interrupteur("salon", 1)
     interrupteursalon.afficher_etat()
     interrupteursalon = Interrupteur("salon", 0)
