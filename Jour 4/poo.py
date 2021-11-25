@@ -10,4 +10,4 @@ class Personne:
         return self.age > age_majorite
 
     def __str__(self):
-        return f"Je suis {} et je suis né en {self.naissance}"
+        return f"Je suis {self.nom} et je suis né en {self.naissance}"
