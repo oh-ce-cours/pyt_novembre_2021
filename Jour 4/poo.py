@@ -14,8 +14,8 @@ class Personne:
         return f"Je suis {self.nom} et je suis né en {self.naissance}"
 
     @classmethod
-    def creer(cls):
-        print(cls)
+    def creer(Personne):
+        return Personne("clone", 2021)
 
 
 if __name__ == "__main__":
