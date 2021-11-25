@@ -15,8 +15,7 @@ class Interrupteur:
     def actionner_bouton(self, etat_voulu):
         self.etat = etat_voulu
         res = (
-            f"Je m'appelle {nom} né en {naissance} (age={age}) ; "
-            f"majeur={est_majeur}"
+            f"Je m'appelle {nom} né en {naissance} (age={age}) ; majeur={est_majeur}"
         )
 
 
