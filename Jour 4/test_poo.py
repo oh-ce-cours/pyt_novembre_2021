@@ -20,3 +20,9 @@ def test_creation_personne(matthieu, paul):
 def test_presentation(matthieu):
     assert "Matthieu" in str(matthieu)
     assert "1990" in str(matthieu)
+
+
+def test_change_age_majorite(matthieu, paul):
+    Personne.AGE_MAJORITE = 40
+    assert not matthieu.est_majeur()
+    assert not paul.est_majeur()
