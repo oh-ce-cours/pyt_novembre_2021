@@ -1,2 +1,3 @@
 class Personne:
-    pass
+    def __init__(self, naissance, nom):
+        pass
