@@ -20,6 +20,9 @@ class Personne:
         cls.AGE_MAJORITE += 1
         return cls("clone", 2021)
 
+    def __del__(self):
+        type(self).NB_PERSONNES_CREES -= 1
+
 
 if __name__ == "__main__":
     print(Personne.creer())
