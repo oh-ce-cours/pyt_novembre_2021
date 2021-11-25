@@ -1,6 +1,7 @@
 class Personne:
     def __init__(self, nom, naissance):
-        pass
+        self.naissance = naissance
+        self.age = annee_en_cours - naissance
 
     def est_majeur(self):
         age_majorite = 18
