@@ -4,7 +4,6 @@ class Personne:
     def __init__(self, nom, naissance):
         annee_en_cours = 2021
         self.naissance = naissance
-        self.age = annee_en_cours - naissance
         self.nom = nom
 
     def est_majeur(self):
