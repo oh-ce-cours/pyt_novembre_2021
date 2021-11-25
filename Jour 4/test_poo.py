@@ -13,9 +13,8 @@ def paul():
 
 
 def test_creation_personne(matthieu, paul):
-
-    assert p1.est_majeur()
-    assert not p2.est_majeur()
+    assert matthieu.est_majeur()
+    assert not paul.est_majeur()
 
 
 def test_presentation():
