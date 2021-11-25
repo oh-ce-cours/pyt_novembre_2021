@@ -4,7 +4,6 @@ class Interrupteur:
         self.question_etat = question_etat
 
     def tourner(self):
-        # if self.etat.isnumeric():
         if self.question_etat == 1:
             print(f"la lumiere > {self.question_lieu} < est allumé(e)")
         elif self.question_etat == 0:
@@ -31,10 +30,8 @@ question_etat = question_etat.lower()
 question_etat = question_etat.strip()
 if question_etat == "allumer":
     question_etat = 1
-    question_etat = int(question_etat)
 elif question_etat == "eteindre":
     question_etat = 0
-    question_etat = int(question_etat)
 else:
     print("veuillez indiquer eteindre ou allumer")
 # print(question_lieu,type( question_lieu))
