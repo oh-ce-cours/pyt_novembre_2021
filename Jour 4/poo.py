@@ -21,6 +21,7 @@ class Personne:
         return cls("clone", 2021)
 
     def __del__(self):
+        print(self, "est supprimé")
         type(self).NB_PERSONNES_CREES -= 1
 
 
