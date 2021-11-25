@@ -1,15 +1,15 @@
 class Interrupteur:
-    def __init__(self, question_lieu, question_etat):
+    def __init__(self, question_lieu, etat):
         self.question_lieu = question_lieu
-        self.question_etat = question_etat
+        self.etat = etat
 
     def tourner(self):
-        if self.question_etat == 1:
+        if self.etat == 1:
             print(f"la lumiere > {self.question_lieu} < est allumé(e)")
-        elif self.question_etat == 0:
+        elif self.etat == 0:
             print(f"la lumiere > {self.question_lieu} < est éteinte")
         else:
-            self.question_etat != 0 or self.question_etat != 1
+            self.etat != 0 or self.etat != 1
             print("Veuillez actionner le bouton, l'état doit être en 0 et 1")
 
 
