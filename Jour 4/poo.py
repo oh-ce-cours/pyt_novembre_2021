@@ -35,4 +35,3 @@ if __name__ == "__main__":
 
     p1 = Personne(1, 2)
     print(Personne.NB_PERSONNES_CREES)
-    1 / 0
