@@ -20,4 +20,3 @@ class Personne:
 
 if __name__ == "__main__":
     Personne.creer()
-    print(Personne)
