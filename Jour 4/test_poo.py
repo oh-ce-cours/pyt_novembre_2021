@@ -1,10 +1,16 @@
 from poo import Personne
 import pytest
 
-@pytest.fixture 
+
+@pytest.fixture
 def matthieu():
     return Personne(naissance=1990, nom="Matthieu")
-    
+
+
+@pytest.fixture
+def paul():
+    return Personne(naissance=1990, nom="Matthieu")
+
 
 def test_creation_personne(p1):
     p1 = Personne(naissance=1990, nom="Matthieu")
