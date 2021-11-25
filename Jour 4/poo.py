@@ -2,11 +2,15 @@ class Personne:
     AGE_MAJORITE = 18
     NB_PERSONNES_CREES = 0
 
+    @staticmethod
+    def calcule_age(naissance):
+        annee_en_cours = 2021
+        return annee_en_cours - naissance
+
     def __init__(self, nom, naissance):
         type(self).NB_PERSONNES_CREES += 1
-        annee_en_cours = 2021
         self.naissance = naissance
-        self.age = annee_en_cours - naissance
+        self.age = self.calcule_age(naissance)
         self.nom = nom
 
     def est_majeur(self):
