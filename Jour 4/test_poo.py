@@ -9,7 +9,7 @@ def matthieu():
 
 @pytest.fixture
 def paul():
-    return Personne(naissance=1990, nom="Matthieu")
+    return Personne("Paul", 2020)
 
 
 def test_creation_personne(p1):
