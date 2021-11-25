@@ -1,4 +1,6 @@
 class Personne:
+    AGE_MAJORITE = 18
+
     def __init__(self, nom, naissance):
         annee_en_cours = 2021
         self.naissance = naissance
