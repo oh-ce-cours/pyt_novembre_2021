@@ -4,7 +4,6 @@ from interrupteur import Interrupteur
 
 @pytest.fixture
 def my_interrupteur():
-    print("dans my_interrupteur")
     return Interrupteur("chambre", 0)
 
 
