@@ -6,3 +6,4 @@ def test_creation_personne():
     p2 = Personne("Paul", 2020)
 
     assert p1.est_majeur()
+    assert not p2.est_majeur()
