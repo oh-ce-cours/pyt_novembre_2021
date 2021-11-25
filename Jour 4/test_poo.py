@@ -12,9 +12,7 @@ def paul():
     return Personne("Paul", 2020)
 
 
-def test_creation_personne(p1):
-    p1 = Personne(naissance=1990, nom="Matthieu")
-    p2 = Personne("Paul", 2020)
+def test_creation_personne(matthieu, paul):
 
     assert p1.est_majeur()
     assert not p2.est_majeur()
