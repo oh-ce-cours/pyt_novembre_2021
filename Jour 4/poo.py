@@ -16,4 +16,6 @@ class Personne:
 
 if __name__ == "__main__":
     Personne().creer()
+    p1 = Personne()
+    p1.creer()
     Personne.creer()
