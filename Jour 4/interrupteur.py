@@ -5,7 +5,7 @@ class Interrupteur:
 
     def commuter(self):
         if self.etat == 1:
-            print(f"la lumiere > {self.questio_lieu} < est allumé(e)")
+            print(f"la lumiere > {self.question_lieu} < est allumé(e)")
         elif self.etat == 0:
             print(f"la lumiere > {self.question_lieu} < est éteinte")
         else:
