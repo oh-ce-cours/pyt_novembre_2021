@@ -20,3 +20,5 @@ class Personne:
 
 if __name__ == "__main__":
     print(Personne.creer())
+    print(Personne.creer())
+    print(Personne.creer())
