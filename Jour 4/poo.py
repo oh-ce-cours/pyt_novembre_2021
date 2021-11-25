@@ -32,3 +32,4 @@ if __name__ == "__main__":
     print(Personne.creer())
     print(Personne.NB_PERSONNES_CREES)
     p1 = Personne(1, 2)
+    print(Personne.NB_PERSONNES_CREES)
