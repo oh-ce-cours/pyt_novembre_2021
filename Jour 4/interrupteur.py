@@ -16,31 +16,32 @@ class Interrupteur:
     #     self.etat = etat_voulu
 
 
-# Utilisation
-interrupteursalon = Interrupteur("salon", 1)
-interrupteursalon.afficher_etat()
-interrupteursalon = Interrupteur("salon", 0)
-interrupteursalon.afficher_etat()
-interrupteursalon = Interrupteur("salon", 3)
-interrupteursalon.afficher_etat()
-question_lieu = input(
-    "indiquer le nom de l'interrupteur que vous souhaitez allumer >>> "
-)
-question_etat = input(
-    'voulez vous allumer ou eteindre la lumiere, repondez par "allumer" ou "eteindre" à la question >>> '
-)
-question_etat = question_etat.lower().strip()
+def main():
+    # Utilisation
+    interrupteursalon = Interrupteur("salon", 1)
+    interrupteursalon.afficher_etat()
+    interrupteursalon = Interrupteur("salon", 0)
+    interrupteursalon.afficher_etat()
+    interrupteursalon = Interrupteur("salon", 3)
+    interrupteursalon.afficher_etat()
+    question_lieu = input(
+        "indiquer le nom de l'interrupteur que vous souhaitez allumer >>> "
+    )
+    question_etat = input(
+        'voulez vous allumer ou eteindre la lumiere, repondez par "allumer" ou "eteindre" à la question >>> '
+    )
+    question_etat = question_etat.lower().strip()
 
-etat = 0
-if question_etat == "allumer":
-    etat = 1
-elif question_etat == "eteindre":
     etat = 0
-else:
-    print("veuillez indiquer eteindre ou allumer")
-# print(question_lieu,type( question_lieu))
-# print(question_etat, type(question_etat))
-interrupteursalon = Interrupteur(question_lieu, etat)
-interrupteursalon.afficher_etat()
-interrupteursalon.etat = 13432
-interrupteursalon.afficher_etat()
+    if question_etat == "allumer":
+        etat = 1
+    elif question_etat == "eteindre":
+        etat = 0
+    else:
+        print("veuillez indiquer eteindre ou allumer")
+    # print(question_lieu,type( question_lieu))
+    # print(question_etat, type(question_etat))
+    interrupteursalon = Interrupteur(question_lieu, etat)
+    interrupteursalon.afficher_etat()
+    interrupteursalon.etat = 13432
+    interrupteursalon.afficher_etat()
