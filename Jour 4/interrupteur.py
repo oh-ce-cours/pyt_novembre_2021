@@ -1,5 +1,5 @@
 from enum import Enum
 class Status(Enum):
-    RED = 1
-    GREEN = 2
-    BLUE = 3
+    ON = 1
+    OFF = 2
+    UNKNOWN = 3
