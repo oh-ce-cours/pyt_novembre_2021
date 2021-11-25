@@ -15,6 +15,7 @@ class Personne:
 
     @classmethod
     def creer(cls):
+        cls.AGE_MAJORITE += 1
         return cls("clone", 2021)
 
 
