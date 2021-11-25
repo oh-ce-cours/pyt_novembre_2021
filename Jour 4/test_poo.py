@@ -1,7 +1,12 @@
 from poo import Personne
+import pytest
 
+@pytest.fixture 
+def matthieu():
+    return Personne(naissance=1990, nom="Matthieu")
+    
 
-def test_creation_personne():
+def test_creation_personne(p1):
     p1 = Personne(naissance=1990, nom="Matthieu")
     p2 = Personne("Paul", 2020)
 
