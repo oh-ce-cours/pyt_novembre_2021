@@ -3,4 +3,5 @@ class Personne:
         pass
 
     def est_majeur(self):
-        return True
+        age_majorite = 18
+        return self.age > age_majorite
