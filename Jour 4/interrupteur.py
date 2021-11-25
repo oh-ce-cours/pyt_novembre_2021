@@ -42,3 +42,4 @@ else:
 # print(question_etat, type(question_etat))
 interrupteursalon = Interrupteur(question_lieu, etat)
 interrupteursalon.afficher_etat()
+interrupteursalon.etat = 13432
