@@ -7,7 +7,6 @@ répéter la création d'une ressource (dans notre cas, un interrupteur).
 Il ne faut SURTOUT PAS avoir une variable interrupteur globale partagée 
 entre les tests, car cela n'isole plus les tests les uns des autres. 
 Or vos tests doivent être indépendants entre eux. 
-
 """
 
 
