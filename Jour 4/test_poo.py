@@ -12,3 +12,4 @@ def test_creation_personne():
 def test_presentation():
     p1 = Personne(naissance=1990, nom="Matthieu")
     assert "Matthieu" in str(p1)
+    assert "1990" in str(p1)
